@@ -21,7 +21,7 @@ body {
 
 .todolist {
   margin: 0 auto;
-  width: 900px;
+  max-width: 900px;
 }
 .todolist__title {
   font-family: "font01d51f020433ac2343dc03c097aac735";
