@@ -4,7 +4,7 @@ let todolistBody = document.querySelector(".todolist__body");
 function addDeleteElement() {
     inputAdd.addEventListener("change", function () {
         let text = inputAdd.value;
-        console.log(text);
+        
         if(text.trim()) {
     
             let item = document.createElement("li");
